@@ -6,7 +6,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     const arraySlice = arrayNew.slice(0, maxLength);
     return arraySlice;
   } else {
-    return firstArray;
+    return arrayNew;
   }
 }
 
